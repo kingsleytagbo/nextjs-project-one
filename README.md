@@ -1,12 +1,20 @@
 # nextjs-project-one
-NextJs Project One
+NextJs Project One - Next.js 14.2.5
+
 
 ## Git Commands to Create the Project
 - npx create-next-app@latest
 - the result is the image: \nextjs-project-one\public\img\installation\npx_create_next_app_latest_1.png
+- Next version: Next.js 14.2.5
+- Node version: Node.js v20.15.1
+
 
 ## Git Commands to Run the Project
 - npm run dev
+
+## Learn More
+- https://nextjs.org/docs/getting-started/installation
+
 
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
