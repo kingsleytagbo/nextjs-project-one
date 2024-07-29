@@ -12,12 +12,18 @@ NextJs Project One - Next.js 14.2.5
 ## Git Commands to Run the Project
 - npm run dev
 
+### Configure Tailwind qith a tw-prefix for all the classses
+- Open tailwind.config.ts and add this before the conteny=t block
+- - prefix: 'tw-',
+
+
 ## Learn More
-- https://nextjs.org/docs/getting-started/installation
+- NextJs Installation: https://nextjs.org/docs/getting-started/installation
+
+- How to Combine React, Bootstrap, and Tailwind CSS: https://www.linkedin.com/pulse/how-combine-react-bootstrap-tailwind-css-steps-keita-u0lne/
 
 
-
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
 
