@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
 /* import  Button  from '@/app/components/button'; */
 import Header from './header';
+import FeaturesSection from './featuressection';
+
 
 const LandingPage = () => {
   return (
@@ -23,21 +25,8 @@ const LandingPage = () => {
       </section>
 
       {/* Features Section */}
-      <section className="tw-py-20 tw-bg-gray-100">
-        <div className="tw-container tw-mx-auto tw-px-4">
-          <div className="tw-text-center tw-mb-12">
-            <h2 className="tw-text-3xl tw-font-bold">Our Features</h2>
-          </div>
-          <div className="tw-grid tw-grid-cols-1 md:tw-grid-cols-3 tw-gap-8">
-            {['Enjoy This App', 'Fully Secured', 'Design & Branding'].map((feature, index) => (
-              <div key={index} className="tw-bg-white tw-p-6 tw-rounded-lg tw-shadow-md tw-text-center">
-                <h3 className="tw-text-xl tw-font-semibold tw-mb-4">{feature}</h3>
-                <p className="tw-text-gray-600">Hotpot bubble and squeak pukka quaint Jeffrey brown bread easy peasy squiffy!</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+      <FeaturesSection />
+     
 
       {/* CTA Section */}
       <section className="tw-bg-pink-500 tw-text-white tw-py-20">

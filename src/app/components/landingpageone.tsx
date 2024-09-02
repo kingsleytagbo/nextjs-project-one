@@ -1,5 +1,5 @@
 import React from 'react';
-import Button from '@/app/components/button';
+import Button from '@/app/components/landingpageone/button';
 
 const LandingPageOne = () => {
   return (
