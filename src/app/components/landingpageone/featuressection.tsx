@@ -3,7 +3,7 @@ import React from 'react';
 const IconWrapper: React.FC<React.SVGProps<SVGSVGElement>> = (props) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    className="tw-w-12 tw-h-12 tw-mx-auto tw-mb-6 tw-text-purple-500"
+    className="tw-w-10 tw-h-10 md:tw-w-12 md:tw-h-12 tw-mx-auto tw-mb-4 md:tw-mb-6 tw-text-purple-500"
     viewBox="0 0 24 24"
     fill="none"
     stroke="currentColor"
@@ -43,15 +43,15 @@ interface FeatureCardProps {
 }
 
 const FeatureCard: React.FC<FeatureCardProps> = ({ Icon, title, description, showReadMore = false }) => (
-  <div className="tw-bg-gray-100 tw-p-6 tw-rounded-lg tw-shadow-sm hover:tw-shadow-xl tw-text-center tw-transition-all tw-duration-300 group tw-relative tw-overflow-hidden">
+  <div className="tw-bg-gray-100 tw-p-4 md:tw-p-6 tw-rounded-lg tw-shadow-sm hover:tw-shadow-xl tw-text-center tw-transition-all tw-duration-300 group tw-relative tw-overflow-hidden tw-border-2 tw-border-transparent hover:tw-border-[#D43396]">
     <div className="tw-h-1 tw-w-full tw-bg-gray-100 tw-absolute tw-top-0 tw-left-0 tw-right-0 group-hover:tw-bg-gradient-to-r group-hover:tw-from-purple-600 group-hover:tw-to-pink-500 tw-transition-all tw-duration-300"></div>
     <Icon />
-    <h3 className="tw-text-[1.75rem] tw-font-semibold tw-mb-4 tw-text-black">{title}</h3>
-    <p className="tw-text-gray-600 tw-mb-4 tw-text-[1.125rem] tw-leading-relaxed">{description}</p>
+    <h3 className="tw-text-xl md:tw-text-2xl lg:tw-text-[1.75rem] tw-font-semibold tw-mb-2 md:tw-mb-4 tw-text-black">{title}</h3>
+    <p className="tw-text-gray-600 tw-mb-4 tw-text-base md:tw-text-lg lg:tw-text-[1.125rem] tw-leading-relaxed">{description}</p>
     {showReadMore && (
-      <a href="#" className="tw-text-purple-500 tw-font-medium tw-inline-flex tw-items-center tw-text-[1.125rem]">
+      <a href="#" className="tw-text-purple-500 tw-font-medium tw-inline-flex tw-items-center tw-text-base md:tw-text-lg lg:tw-text-[1.125rem]">
         Read More
-        <svg className="tw-w-5 tw-h-5 tw-ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <svg className="tw-w-4 tw-h-4 md:tw-w-5 md:tw-h-5 tw-ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
         </svg>
       </a>
@@ -60,12 +60,12 @@ const FeatureCard: React.FC<FeatureCardProps> = ({ Icon, title, description, sho
 );
 
 const FeaturesSection: React.FC = () => (
-  <section id="features" className="tw-py-20 tw-bg-gray-100">
+  <section id="features" className="tw-py-12 md:tw-py-20 tw-bg-gray-100">
     <div className="tw-container tw-mx-auto tw-px-4">
-      <div className="tw-text-center tw-mb-12">
-        <h2 className="tw-text-4xl tw-font-bold tw-text-black">Our Features</h2>
+      <div className="tw-text-center tw-mb-8 md:tw-mb-12">
+        <h2 className="tw-text-3xl md:tw-text-4xl tw-font-bold tw-text-black">Our Features</h2>
       </div>
-      <div className="tw-grid tw-grid-cols-1 md:tw-grid-cols-3 tw-gap-8">
+      <div className="tw-grid tw-grid-cols-1 md:tw-grid-cols-3 tw-gap-6 md:tw-gap-8">
         <FeatureCard
           Icon={SmartphoneIcon}
           title="Enjoy This App"
