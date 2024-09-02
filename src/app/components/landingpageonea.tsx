@@ -10,17 +10,17 @@ const LandingPage = () => {
 
       {/* Hero Section */}
       <section id="hero" className="tw-bg-gradient-to-r tw-from-purple-600 tw-to-pink-500 tw-text-white tw-pt-24 sm:tw-pt-28 md:tw-pt-20 tw-pb-8 sm:tw-pb-12 md:tw-pb-20">
-  <div className="tw-container tw-mx-auto tw-px-4 tw-flex tw-flex-col sm:tw-flex-row tw-items-center">
-    <div className="tw-w-full sm:tw-w-1/2 tw-mb-8 sm:tw-mb-0">
-      <h1 className="tw-text-3xl sm:tw-text-4xl md:tw-text-5xl tw-font-bold tw-mb-4">Saas Software Landing is the Best Ever</h1>
-      <p className="tw-text-base sm:tw-text-lg md:tw-text-xl tw-mb-6 sm:tw-mb-8">Why I say old chap that is spiffing bits and bobs chimney pot cracking goal bamboozled!</p>
-      <button className="tw-bg-white tw-text-pink-500 tw-px-4 sm:tw-px-6 md:tw-px-8 tw-py-2 sm:tw-py-2.5 md:tw-py-3 tw-rounded-full hover:tw-bg-gray-100 tw-transition tw-duration-300">Get Started</button>
-    </div>
-    <div className="tw-w-full sm:tw-w-1/2">
-      <div className="tw-bg-white tw-h-40 tw-w-40 sm:tw-h-48 sm:tw-w-48 md:tw-h-64 md:tw-w-64 tw-mx-auto tw-rounded-lg tw-shadow-lg"></div>
-    </div>
-  </div>
-</section>
+        <div className="tw-container tw-mx-auto tw-px-4 tw-flex tw-flex-col sm:tw-flex-row tw-items-center">
+          <div className="tw-w-full sm:tw-w-1/2 tw-mb-8 sm:tw-mb-0">
+            <h1 className="tw-text-3xl sm:tw-text-4xl md:tw-text-5xl tw-font-bold tw-mb-4">Saas Software Landing is the Best Ever</h1>
+            <p className="tw-text-base sm:tw-text-lg md:tw-text-xl tw-mb-6 sm:tw-mb-8">Why I say old chap that is spiffing bits and bobs chimney pot cracking goal bamboozled!</p>
+            <button className="tw-bg-white tw-text-pink-500 tw-px-4 sm:tw-px-6 md:tw-px-8 tw-py-2 sm:tw-py-2.5 md:tw-py-3 tw-rounded-full hover:tw-bg-gray-100 tw-transition tw-duration-300">Get Started</button>
+          </div>
+          <div className="tw-w-full sm:tw-w-1/2">
+            <div className="tw-bg-white tw-h-40 tw-w-40 sm:tw-h-48 sm:tw-w-48 md:tw-h-64 md:tw-w-64 tw-mx-auto tw-rounded-lg tw-shadow-lg"></div>
+          </div>
+        </div>
+      </section>
 
       {/* Features Section */}
       <section className="tw-py-20 tw-bg-gray-100">
