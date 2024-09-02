@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "name": "nextjs-project-one",
   "version": "0.1.0",
@@ -25,3 +26,32 @@
     "typescript": "^5"
   }
 }
+=======
+{
+  "name": "nextjs-project-one",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "aider": "python -m aider --4o --openai-api-key"
+  },
+  "dependencies": {
+    "next": "14.2.5",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.5",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
+}
+>>>>>>> 6e4d414 (landing page one)
