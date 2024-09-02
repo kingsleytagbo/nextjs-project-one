@@ -43,7 +43,7 @@ interface FeatureCardProps {
 }
 
 const FeatureCard: React.FC<FeatureCardProps> = ({ Icon, title, description, showReadMore = false }) => (
-  <div className="tw-bg-gray-100 tw-p-6 tw-rounded-lg tw-shadow-sm tw-text-center tw-transition-all tw-duration-300 hover:tw-shadow-lg group tw-relative tw-overflow-hidden">
+  <div className="tw-bg-gray-100 tw-p-6 tw-rounded-lg tw-shadow-sm hover:tw-shadow-xl tw-text-center tw-transition-all tw-duration-300 group tw-relative tw-overflow-hidden">
     <div className="tw-h-1 tw-w-full tw-bg-gray-100 tw-absolute tw-top-0 tw-left-0 tw-right-0 group-hover:tw-bg-gradient-to-r group-hover:tw-from-purple-600 group-hover:tw-to-pink-500 tw-transition-all tw-duration-300"></div>
     <Icon />
     <h3 className="tw-text-[1.75rem] tw-font-semibold tw-mb-4 tw-text-black">{title}</h3>
