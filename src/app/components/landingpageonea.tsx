@@ -1,29 +1,18 @@
-import React from 'react';
-import  Button  from '@/app/components/button';
+import React, { useEffect, useState } from 'react';
+/* import  Button  from '@/app/components/button'; */
+import Header from './header';
 
 const LandingPage = () => {
   return (
     <div className="tw-flex tw-flex-col tw-min-h-screen">
       {/* Header */}
-      <header className="tw-bg-white tw-shadow-md tw-py-4 tw-px-8">
-        <nav className="tw-flex tw-justify-between tw-items-center">
-          <div className="tw-text-2xl tw-font-bold">Logo</div>
-          <div className="tw-flex tw-items-center tw-space-x-6">
-            <a href="#" className="tw-text-gray-700 hover:tw-text-gray-900">Home</a>
-            <a href="#" className="tw-text-gray-700 hover:tw-text-gray-900">About Us</a>
-            <a href="#" className="tw-text-gray-700 hover:tw-text-gray-900">Blog</a>
-            <a href="#" className="tw-text-gray-700 hover:tw-text-gray-900">Page</a>
-            <a href="#" className="tw-text-gray-700 hover:tw-text-gray-900">Contact</a>
-            <button className="tw-border tw-border-pink-500 tw-text-pink-500 tw-px-4 tw-py-2 tw-rounded-full hover:tw-bg-pink-500 hover:tw-text-white tw-transition tw-duration-300">Free Sign Up</button>
-          </div>
-        </nav>
-      </header>
+      <Header />
 
       {/* Hero Section */}
-      <section className="tw-bg-gradient-to-r tw-from-purple-600 tw-to-pink-500 tw-text-white tw-py-8 sm:tw-py-12 md:tw-py-20">
+      <section id="hero" className="tw-bg-gradient-to-r tw-from-purple-600 tw-to-pink-500 tw-text-white tw-pt-24 sm:tw-pt-28 md:tw-pt-20 tw-pb-8 sm:tw-pb-12 md:tw-pb-20">
   <div className="tw-container tw-mx-auto tw-px-4 tw-flex tw-flex-col sm:tw-flex-row tw-items-center">
     <div className="tw-w-full sm:tw-w-1/2 tw-mb-8 sm:tw-mb-0">
-      <h1 className="tw-text-2xl sm:tw-text-3xl md:tw-text-4xl lg:tw-text-5xl tw-font-bold tw-mb-4">Saas Software Landing is the Best Ever</h1>
+      <h1 className="tw-text-3xl sm:tw-text-4xl md:tw-text-5xl tw-font-bold tw-mb-4">Saas Software Landing is the Best Ever</h1>
       <p className="tw-text-base sm:tw-text-lg md:tw-text-xl tw-mb-6 sm:tw-mb-8">Why I say old chap that is spiffing bits and bobs chimney pot cracking goal bamboozled!</p>
       <button className="tw-bg-white tw-text-pink-500 tw-px-4 sm:tw-px-6 md:tw-px-8 tw-py-2 sm:tw-py-2.5 md:tw-py-3 tw-rounded-full hover:tw-bg-gray-100 tw-transition tw-duration-300">Get Started</button>
     </div>
